@@ -57,15 +57,5 @@ module.exports = {
   quotes
 };
 
-function quotesByperson(quotes,person){
-  let array = []
-  for (let i= 0; i <= quotes.length -1; i++){
-    if (quotes[i].person === person) {
-      array.push(quotes[i])
-    }
-  }
-  return array
-}
 
-//console.log(quotesByperson(quotes,'Grace Hopper'))
 
